@@ -1,0 +1,81 @@
+/* src/components/AddMovie.css */
+
+.add-movie-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-movie-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-movie-form .form-group {
+  margin-bottom: 15px;
+}
+
+.add-movie-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.add-movie-form .required {
+  color: red;
+  margin-left: 2px;
+}
+
+.add-movie-form input,
+.add-movie-form select,
+.add-movie-form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-movie-form input:focus,
+.add-movie-form select:focus,
+.add-movie-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submit-button,
+.cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #c82333;
+}

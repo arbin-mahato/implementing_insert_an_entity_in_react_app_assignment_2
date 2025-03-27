@@ -11,6 +11,10 @@
   margin-bottom: 20px;
 }
 
+.dashboard-header h1 {
+  margin: 0;
+}
+
 .add-movie-button {
   padding: 10px 20px;
   background-color: #007bff;
@@ -18,6 +22,7 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 16px;
 }
 
 .add-movie-button:hover {
@@ -28,4 +33,5 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  justify-content: center;
 }
